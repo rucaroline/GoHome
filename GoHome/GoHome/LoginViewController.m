@@ -8,6 +8,7 @@
 
 #import "LoginViewController.h"
 #import "YanZheng.h"
+#import "RegisterViewController.h"
 @interface LoginViewController ()
 
 @end
@@ -61,20 +62,6 @@
     }
     
 }
-- (void)textFieldDidEndEditing:(UITextField *)textField;
-{
-    [textField resignFirstResponder];
-    if (textField==_PhoneNumber)
-    {
-        [_MiMa resignFirstResponder];
-    }
-    else
-        if (textField==_PhoneNumber)
-        {
-            [_MiMa resignFirstResponder];
-        }
-    
-}
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
     return YES;
@@ -99,36 +86,14 @@
 }
 - (IBAction)Login:(UIButton *)sender
 {
-    if (![YanZheng validateMobile:_PhoneNumber.text])
-    {
-        UIAlertController* alert=[UIAlertController alertControllerWithTitle:@"提示" message:@"请输入正确的手机号" preferredStyle:UIAlertControllerStyleAlert];
-        UIAlertAction* sure=[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction* _Nonnull action){}];
-        UIAlertAction* cancel=[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDefault handler:^(UIAlertAction* _Nonnull action){}];
-        [alert addAction:sure];
-        [alert addAction:cancel];
-        [self presentViewController:alert animated:YES completion:nil];
-    }
-   else
-       if (![YanZheng validatePassword:_MiMa.text])
-       {
-           UIAlertController* alert=[UIAlertController alertControllerWithTitle:@"提示" message:@"密码由字母或数字组成（6-12位）" preferredStyle:UIAlertControllerStyleAlert];
-           UIAlertAction* sure=[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction* _Nonnull action){}];
-           UIAlertAction* cancel=[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDefault handler:^(UIAlertAction* _Nonnull action){}];
-           [alert addAction:sure];
-           [alert addAction:cancel];
-           [self presentViewController:alert animated:YES completion:nil];
-       }
-    //else
-//        if ([YanZheng validateMobile:_PhoneNumber.text]&&[YanZheng validatePassword:_MiMa.text])
-//        {
-//            <#statements#>
-//        }
+       
         
 }
 
 - (IBAction)Register:(UIButton *)sender
 {
-    NSLog(@"进入注册界面");
+    RegisterViewController* registe=[[RegisterViewController alloc]init];
+    [self.navigationController pushViewController:registe animated:YES];
 }
 
 - (IBAction)QQ:(UIButton *)sender

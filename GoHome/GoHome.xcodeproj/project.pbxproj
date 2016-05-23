@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		627B60D41CF29DFD006E426D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B60D31CF29DFD006E426D /* Foundation.framework */; };
+		627B60D61CF29E04006E426D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B60D51CF29E04006E426D /* UIKit.framework */; };
+		627B60D81CF29E11006E426D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B60D71CF29E11006E426D /* CoreText.framework */; };
+		627B60DA1CF29E1B006E426D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B60D91CF29E1B006E426D /* QuartzCore.framework */; };
+		627B60DC1CF29E25006E426D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B60DB1CF29E25006E426D /* ImageIO.framework */; };
+		627B60DE1CF29E79006E426D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B60DD1CF29E79006E426D /* libz.tbd */; };
+		627B60E01CF29E8F006E426D /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B60DF1CF29E8F006E426D /* libstdc++.tbd */; };
+		627B60E21CF29E9C006E426D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B60E11CF29E9C006E426D /* CoreTelephony.framework */; };
+		627B60E41CF29EA9006E426D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B60E31CF29EA9006E426D /* libsqlite3.tbd */; };
+		627B60E61CF29EB4006E426D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B60E51CF29EB4006E426D /* CoreGraphics.framework */; };
+		627B60E81CF29ECC006E426D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B60E71CF29ECC006E426D /* SystemConfiguration.framework */; };
+		627B60EA1CF29EE0006E426D /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B60E91CF29EE0006E426D /* libiconv.tbd */; };
+		627B60EC1CF29EE9006E426D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B60EB1CF29EE9006E426D /* Security.framework */; };
 		627EF6611CEC5776005939F3 /* YanZheng.m in Sources */ = {isa = PBXBuildFile; fileRef = 627EF6601CEC5776005939F3 /* YanZheng.m */; };
 		627EF6671CEC941B005939F3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627EF6661CEC941B005939F3 /* CoreFoundation.framework */; };
 		627EF66F1CEC9C32005939F3 /* MeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627EF66D1CEC9C32005939F3 /* MeTableViewController.m */; };
@@ -20,9 +33,24 @@
 		629FE4DA1CEB414C00BA1910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629FE4D81CEB414C00BA1910 /* LaunchScreen.storyboard */; };
 		629FE4E41CEB419C00BA1910 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FE4E31CEB419C00BA1910 /* LoginViewController.m */; };
 		629FE4E81CEB41BB00BA1910 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FE4E71CEB41BB00BA1910 /* RegisterViewController.m */; };
+		906F8B3D87B202545C299090 /* libPods-GoHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D524EEEB1D809BBB60165F5C /* libPods-GoHome.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		492CE53A685769508EFB7117 /* Pods-GoHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoHome/Pods-GoHome.release.xcconfig"; sourceTree = "<group>"; };
+		627B60D31CF29DFD006E426D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		627B60D51CF29E04006E426D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		627B60D71CF29E11006E426D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		627B60D91CF29E1B006E426D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		627B60DB1CF29E25006E426D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		627B60DD1CF29E79006E426D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		627B60DF1CF29E8F006E426D /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		627B60E11CF29E9C006E426D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		627B60E31CF29EA9006E426D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		627B60E51CF29EB4006E426D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		627B60E71CF29ECC006E426D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		627B60E91CF29EE0006E426D /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		627B60EB1CF29EE9006E426D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		627EF65F1CEC5776005939F3 /* YanZheng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YanZheng.h; sourceTree = "<group>"; };
 		627EF6601CEC5776005939F3 /* YanZheng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YanZheng.m; sourceTree = "<group>"; };
 		627EF6661CEC941B005939F3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -45,6 +73,8 @@
 		629FE4E31CEB419C00BA1910 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		629FE4E61CEB41BB00BA1910 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		629FE4E71CEB41BB00BA1910 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		BD06C1AADA06B50CC95A77E9 /* Pods-GoHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoHome/Pods-GoHome.debug.xcconfig"; sourceTree = "<group>"; };
+		D524EEEB1D809BBB60165F5C /* libPods-GoHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627B60EC1CF29EE9006E426D /* Security.framework in Frameworks */,
+				627B60EA1CF29EE0006E426D /* libiconv.tbd in Frameworks */,
+				627B60E81CF29ECC006E426D /* SystemConfiguration.framework in Frameworks */,
+				627B60E61CF29EB4006E426D /* CoreGraphics.framework in Frameworks */,
+				627B60E41CF29EA9006E426D /* libsqlite3.tbd in Frameworks */,
+				627B60E21CF29E9C006E426D /* CoreTelephony.framework in Frameworks */,
+				627B60E01CF29E8F006E426D /* libstdc++.tbd in Frameworks */,
+				627B60DE1CF29E79006E426D /* libz.tbd in Frameworks */,
+				627B60DC1CF29E25006E426D /* ImageIO.framework in Frameworks */,
+				627B60DA1CF29E1B006E426D /* QuartzCore.framework in Frameworks */,
+				627B60D81CF29E11006E426D /* CoreText.framework in Frameworks */,
+				627B60D61CF29E04006E426D /* UIKit.framework in Frameworks */,
+				627B60D41CF29DFD006E426D /* Foundation.framework in Frameworks */,
 				627EF6671CEC941B005939F3 /* CoreFoundation.framework in Frameworks */,
+				906F8B3D87B202545C299090 /* libPods-GoHome.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		080A162661B02FE81B499902 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD06C1AADA06B50CC95A77E9 /* Pods-GoHome.debug.xcconfig */,
+				492CE53A685769508EFB7117 /* Pods-GoHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		627EF6621CEC60F5005939F3 /* Third */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +122,21 @@
 		627EF6681CEC9421005939F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				627B60EB1CF29EE9006E426D /* Security.framework */,
+				627B60E91CF29EE0006E426D /* libiconv.tbd */,
+				627B60E71CF29ECC006E426D /* SystemConfiguration.framework */,
+				627B60E51CF29EB4006E426D /* CoreGraphics.framework */,
+				627B60E31CF29EA9006E426D /* libsqlite3.tbd */,
+				627B60E11CF29E9C006E426D /* CoreTelephony.framework */,
+				627B60DF1CF29E8F006E426D /* libstdc++.tbd */,
+				627B60DD1CF29E79006E426D /* libz.tbd */,
+				627B60DB1CF29E25006E426D /* ImageIO.framework */,
+				627B60D91CF29E1B006E426D /* QuartzCore.framework */,
+				627B60D71CF29E11006E426D /* CoreText.framework */,
+				627B60D51CF29E04006E426D /* UIKit.framework */,
+				627B60D31CF29DFD006E426D /* Foundation.framework */,
 				627EF6661CEC941B005939F3 /* CoreFoundation.framework */,
+				D524EEEB1D809BBB60165F5C /* libPods-GoHome.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,6 +188,7 @@
 				627EF6681CEC9421005939F3 /* Frameworks */,
 				629FE4C91CEB414C00BA1910 /* GoHome */,
 				629FE4C81CEB414C00BA1910 /* Products */,
+				080A162661B02FE81B499902 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 629FE4DE1CEB414C00BA1910 /* Build configuration list for PBXNativeTarget "GoHome" */;
 			buildPhases = (
+				18F58BECA93F8A4124E71233 /* 📦 Check Pods Manifest.lock */,
 				629FE4C31CEB414C00BA1910 /* Sources */,
 				629FE4C41CEB414C00BA1910 /* Frameworks */,
 				629FE4C51CEB414C00BA1910 /* Resources */,
+				88431AD8C91DEF4A26A2DBC2 /* 📦 Embed Pods Frameworks */,
+				9CD6D1B2EDDF17D9029FA6D0 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +314,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18F58BECA93F8A4124E71233 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88431AD8C91DEF4A26A2DBC2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoHome/Pods-GoHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD6D1B2EDDF17D9029FA6D0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoHome/Pods-GoHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		629FE4C31CEB414C00BA1910 /* Sources */ = {
@@ -367,6 +486,7 @@
 		};
 		629FE4DF1CEB414C00BA1910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD06C1AADA06B50CC95A77E9 /* Pods-GoHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoHome/Info.plist;
@@ -378,6 +498,7 @@
 		};
 		629FE4E01CEB414C00BA1910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492CE53A685769508EFB7117 /* Pods-GoHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoHome/Info.plist;
